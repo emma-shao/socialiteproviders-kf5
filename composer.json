@@ -1,0 +1,18 @@
+{
+    "name": "socialiteproviders/kf5",
+    "description": "逸创云客服oauth登录",
+    "license": "MIT",
+    "authors": [{
+        "name": "emma",
+        "email": "srj7758@qq.com"
+    }],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "socialiteproviders/manager": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\kf5\\": ""
+        }
+    }
+}
